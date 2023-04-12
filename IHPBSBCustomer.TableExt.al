@@ -30,7 +30,7 @@ tableextension 50100 "IHP BSB Customer" extends Customer
             FieldClass = FlowField;
             Editable = false;
             //Quelltabelle und Feld, dann die Bedingung
-            CalcFormula = lookup("IHP BSB Book"."Description" where("No." = field("IHP BSB Favorite Book No.")));
+            CalcFormula = lookup("IHP BSB Book"."Description" where("No." = field("IHP BSB Favorite Book No."))); //Hier existiert noch ein Fehler 
 
 
         }

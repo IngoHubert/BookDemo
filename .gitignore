@@ -1,0 +1,5 @@
+*.app
+.alcache
+.alpackages
+rad.json
+.altemplates

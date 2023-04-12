@@ -1,0 +1,15 @@
+{
+    "al.enableCodeAnalysis": false,
+    "al.codeAnalyzers": [
+        "${UICop}",
+        "${CodeCop}",
+        "${PerTenantExtensionCop}"
+    ],
+    "editor.mouseWheelZoom": true,
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.OnSaveAlFileAction": "Rename",
+    "CRS.ObjectNamePrefix": "IHP ",
+    "editor.snippetSuggestions": "bottom"
+}

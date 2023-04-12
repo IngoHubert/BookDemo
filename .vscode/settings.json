@@ -1,5 +1,5 @@
 {
-    "al.enableCodeAnalysis": false,
+    "al.enableCodeAnalysis": true,
     "al.codeAnalyzers": [
         "${UICop}",
         "${CodeCop}",
